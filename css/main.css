@@ -1,0 +1,60 @@
+body {
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url(/images/banner.jpg);
+  background-size: cover;
+  height: 11rem;
+  padding-top: 5rem;
+}
+
+.banner h1 {
+  font-size: 6rem;
+  font-family: 'Changa One', cursive;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0 0 5px white;
+}
+
+.banner h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 2px white;
+  margin-top: 0.5rem;
+
+}
+
+.socialmedia {
+  padding: 1rem 0;
+  border-bottom: 1px solid #BBB;
+  margin-bottom: 2rem;
+}
+
+.socialmedia a {
+  text-decoration: none;
+  color: black;
+}
+
+.socialmedia a:hover {
+  color: #10AA10;
+}
+
+.socialmedia li {
+  display: inline;
+  padding-right: 2rem;
+}
