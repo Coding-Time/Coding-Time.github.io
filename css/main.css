@@ -3,7 +3,6 @@ body {
 }
 
 
-
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
@@ -57,4 +56,52 @@ body {
 .socialmedia li {
   display: inline;
   padding-right: 2rem;
+}
+
+.site-footer {
+  background-color: #202020;
+  padding-top: 1.5rem;
+  border-top: 1px solid #7E7E74;
+  margin-top: 2rem;
+  color: #8C8C81;
+}
+
+.site-footer h4 {
+  font-size: 0.8rem;
+  color: #B7B7B1;
+  padding: 0.5rem 0 1rem 0;
+}
+
+.site-footer h5 {
+  font-size: 0.7rem;
+  padding-bottom: 0.5rem;
+}
+
+.site-footer ul {
+  list-style-type:disc;
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+
+.site-footer li {
+  min-width: 50px;
+  font-size: 0.7rem;
+  padding-right: 1rem;
+}
+
+.site-footer li:first-child {
+  margin-left: 1rem;
+}
+
+.site-footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #10AA10;
+}
+
+#copyright {
+  font-size: 0.7rem;
 }
