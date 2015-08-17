@@ -84,9 +84,9 @@ body {
 }
 
 .site-footer li {
-  min-width: 50px;
   font-size: 0.7rem;
-  padding-right: 1rem;
+  margin: 0 1rem 0 0.5rem;
+
 }
 
 .site-footer li:first-child {
@@ -102,6 +102,6 @@ body {
   color: #10AA10;
 }
 
-#copyright {
+.site-footer .copyright {
   font-size: 0.7rem;
 }
