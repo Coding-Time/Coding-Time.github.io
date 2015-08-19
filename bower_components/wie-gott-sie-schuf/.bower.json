@@ -1,0 +1,33 @@
+{
+  "name": "wie-gott-sie-schuf",
+  "version": "0.0.2",
+  "authors": [
+    "Xiphe <github@xiphe.net>",
+    "hundekoerper"
+  ],
+  "description": "alle elemente sind gleich vor den augen der herren",
+  "main": "wie-gott-sie-schuf.css",
+  "keywords": [
+    "css",
+    "reset",
+    "equality"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "demo"
+  ],
+  "homepage": "https://github.com/Coding-Time/wie-gott-sie-schuf",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.2",
+    "commit": "425ba2941a52ee7d4e58a3cd491bef317c1d5830"
+  },
+  "_source": "git://github.com/Coding-Time/wie-gott-sie-schuf.git",
+  "_target": "0.0.2",
+  "_originalSource": "wie-gott-sie-schuf"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Coding-Time.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Coding-Time/Coding-Time.github.io",
+  "authors": [
+    "Xiphe <github@xiphe.net>",
+    "hundekoerper"
+  ],
+  "private": true,
+  "description": "content of Coding-Time.github.io",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "wie-gott-sie-schuf": "0.0.2"
+  }
+}
