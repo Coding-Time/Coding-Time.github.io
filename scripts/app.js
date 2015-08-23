@@ -1,5 +1,3 @@
-var navigation = function() {};
-
 var projects = function(){
   $('.procontent').hide();
 
@@ -17,4 +15,4 @@ var projects = function(){
   });
 };
 
-$(document).ready(projects, navigation);
+$(document).ready(projects);

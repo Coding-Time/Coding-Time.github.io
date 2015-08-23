@@ -28,18 +28,22 @@ a:hover {
   color: #10AA10;
 }
 
-.wrapper {
-  max-width: 960px;
-  margin: 0 auto;
+b {
+	color: #8C8C81;
 }
 
-.navigation {
+nav {
 	padding: 0.5rem 0 0.5rem 0;
 }
 
-.navigation li {
+nav li {
 	display: inline;
 	padding-right: 3rem;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .banner {
