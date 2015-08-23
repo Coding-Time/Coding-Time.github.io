@@ -1,4 +1,6 @@
-var main = function (){
+var navigation = function() {};
+
+var projects = function(){
   $('.procontent').hide();
 
   $('.proitem').click(function(){
@@ -15,4 +17,4 @@ var main = function (){
   });
 };
 
-$(document).ready(main);
+$(document).ready(projects, navigation);

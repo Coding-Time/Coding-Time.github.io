@@ -33,11 +33,20 @@ a:hover {
   margin: 0 auto;
 }
 
+.navigation {
+	padding: 0.5rem 0 0.5rem 0;
+}
+
+.navigation li {
+	display: inline;
+	padding-right: 3rem;
+}
+
 .banner {
   background-image: url(/images/banner.jpg);
   background-size: cover;
   height: 11rem;
-  padding-top: 5rem;
+  padding-top: 3.5rem;
 }
 
 .banner h1 {
@@ -81,6 +90,7 @@ a:hover {
 }
 
 .proitem {
+	cursor: pointer;
 	border: 1px solid #B7B7B1;
 }
 
@@ -92,7 +102,6 @@ a:hover {
 }
 
 .prodes {
-
 	text-align: left;
 	width: 50%;
 }
@@ -110,7 +119,7 @@ a:hover {
 }
 
 .selected {
-	background-color: #CCFF99;
+	background-color: #E2FFC6;
 }
 
 
