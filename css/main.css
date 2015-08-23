@@ -19,6 +19,15 @@ h3, h4, h5 {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #10AA10;
+}
+
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
@@ -60,15 +69,6 @@ h3, h4, h5 {
   margin-bottom: 2rem;
 }
 
-.socialmedia a {
-  text-decoration: none;
-  color: black;
-}
-
-.socialmedia a:hover {
-  color: #10AA10;
-}
-
 .socialmedia li {
   display: inline;
   padding-right: 2rem;
@@ -77,6 +77,7 @@ h3, h4, h5 {
 .projects table {
 	width: 100%;
 	text-align: center;
+	margin-bottom: 2rem;
 }
 
 .proitem {
@@ -98,6 +99,18 @@ h3, h4, h5 {
 
 .prodate, .prolang {
 	width: 15%;
+}
+
+.procontent {
+	text-align: left;
+}
+
+.procontent td {
+	padding: 1rem 2.5rem 1rem 2.5rem;
+}
+
+.selected {
+	background-color: #CCFF99;
 }
 
 
