@@ -74,6 +74,33 @@ h3, h4, h5 {
   padding-right: 2rem;
 }
 
+.projects table {
+	width: 100%;
+	text-align: center;
+}
+
+.proitem {
+	border: 1px solid #B7B7B1;
+}
+
+.proname {
+	width: 25%;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+.prodes {
+
+	text-align: left;
+	width: 50%;
+}
+
+.prodate, .prolang {
+	width: 15%;
+}
+
+
 .site-footer {
   background-color: #202020;
   padding-top: 1.5rem;
@@ -136,4 +163,19 @@ h3, h4, h5 {
 	position:absolute;
 	bottom:0;
 	left:0;
+}
+
+#css {
+	font-weight: bold;
+	color: #6B246B;
+}
+
+#html {
+	font-weight: bold;
+	color: #3366CC;
+}
+
+#javascript {
+	font-weight: bold;
+	color: #009933;
 }
