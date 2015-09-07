@@ -32,13 +32,72 @@ b {
 	color: #8C8C81;
 }
 
-nav {
-	padding: 0.5rem 0 0.5rem 0;
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 1rem;
+	font-weight: 200
+}
+
+nav ul:hover a {
+	color: rgba(249, 249, 249, .4);
+}
+
+nav ul:hover a:hover {
+	color: rgba(249, 249, 249, 1);
 }
 
 nav li {
+	float: left;
+	width: 18.66666666666667%;
+	text-align: center;
 	display: inline;
-	padding-right: 3rem;
+}
+
+nav a {
+	display: block;
+	height: 1.2rem;
+	color: rgba(249, 249, 249, .9);
+	text-decoration: none;
+	transition: color .5s, background .5s, height .5s;
+}
+
+nav a:hover {
+	text-shadow: 0 0 3px #FFF;
+}
+
+nav li:nth-child(3n+1) {
+	background: rgb(0, 153, 51);
+}
+
+nav li:nth-child(3n+2) {
+	background: rgb(0, 204, 102);
+}
+
+nav li:nth-child(3n+3) {
+	background: rgb(0, 153, 255);
+}
+
+nav li:nth-child(3n+1) a:hover,
+nav li:nth-child(3n+1) a:active,
+nav li:nth-child(3n+1) a:focus {
+		border-bottom: 0.3rem solid rgb(25, 94, 25);
+		height: 1.5rem;
+}
+
+nav li:nth-child(3n+2) a:hover,
+nav li:nth-child(3n+2) a:active,
+nav li:nth-child(3n+2) a:focus {
+		border-bottom: 0.3rem solid rgb(0, 143, 71);
+		height: 1.5rem;
+}
+
+nav li:nth-child(3n+3) a:hover,
+nav li:nth-child(3n+3) a:active,
+nav li:nth-child(3n+3) a:focus {
+		border-bottom: 0.3rem solid rgb(0, 92, 153);
+		height: 1.5rem;
 }
 
 .wrapper {
