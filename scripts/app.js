@@ -15,4 +15,4 @@ var projects = function(){
   });
 };
 
-$(document).ready(projects);
+window.derbeready(projects);

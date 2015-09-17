@@ -14,4 +14,41 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <script type='text/javascript'>
+
+  (function() {
+    var jQueryIsReady = false;
+    var callbacks = [];
+    var interval;
+
+    function jQueryReady() {
+      jQueryIsReady = true;
+      callbacks.forEach(function(callback) {
+        callback();
+      });
+      callbacks = [];
+    }
+
+    function checkJquery() {
+      if (typeof jQuery !== 'undefined') {
+        clearInterval(interval);
+        $(document).ready(jQueryReady);
+      }
+    }
+
+    interval = setInterval(checkJquery, 5);
+    checkJquery();
+
+    window.derbeready = function(callback) {
+      if (jQueryIsReady) {
+        callback();
+      } else {
+        callbacks.push(callback);
+      }
+    }
+  })();
+
+  </script>
+
 </head>
